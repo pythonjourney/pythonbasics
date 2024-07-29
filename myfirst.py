@@ -2,7 +2,35 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
+
 @app.get('/')
+def blog_list():
+    return {"data": "Blog list"}
+
+@app.get('/blog/1')
+def blog_id():
+  return {'data':1}
+
+@app.get('/blog/2')
+def blog_id():
+    return {'data':2}
+
+
+#when /blog/unpublished is placed below here it doesnt throws error
+
+@app.get('/blog/unpublished')   
+def unpublished():
+    return {'data':'unpublished blogs list'}
+
+@app.get('/blog/{id}')
+def blog_id_dynamically(id: int):
+    return {'data':id}
+# when /blog/unpublished is placed below here it throws error
+# @app.get('/blog/unpublished')   
+# def unpublished():
+#     return {'data':'unpublished blogs list'}
+
+@app.get('/root')
 def read_root():
     return {
         "aws": {
