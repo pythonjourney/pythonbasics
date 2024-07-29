@@ -9,9 +9,13 @@ def read_root():
         
            "instance-id": "t2.micro", 
            "ami-id":"amixxxxxxxxxxxxx",
-           "region": "us-east-1"
+           "region": "us-east-1",
            "name": "myec2instance"
                 }
                 
             }
+
+@app.get('/about')
+def about():
+    return {'data': 'about page'}
 
