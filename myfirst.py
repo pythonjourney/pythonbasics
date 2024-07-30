@@ -47,3 +47,14 @@ def read_root():
 def about():
     return {'data': 'about page'}
 
+users = []
+
+@app.get('/users')
+async def users_list():
+    return users
+
+@app.post('/users')
+async def create_user(user):
+    users.append(user)
+    return "success"
+
