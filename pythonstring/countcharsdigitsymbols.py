@@ -1,4 +1,4 @@
-str1 = "P@#yn26at^&i5ve"
+str1 = "K@#yn26at^&i5ve"
 
 digits = []
 letters = []
