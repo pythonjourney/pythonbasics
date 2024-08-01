@@ -15,7 +15,7 @@ for i in range str1:
   else:  symbols.append(i)
 
 
-  print(len(digits)-1)
-  print(len(letters)-1)
-  print(len(symbols)-1)
+  print(len(digits))
+  print(len(letters))
+  print(len(symbols))
      
