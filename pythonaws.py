@@ -1,0 +1,10 @@
+
+
+create_tags
+delete_tags
+attach_volume
+reboot
+monitor
+create_instance
+stop_instance
+terminate_instance
