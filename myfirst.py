@@ -5,7 +5,11 @@ app = FastAPI()
 
 @app.get('/')
 def blog_list():
-    return {"data": "Blog list"}
+    return {"Name": "Nagendra"}
+
+@app.get('/contactus')
+def get_sravan():
+    return 'Hello please reach us at sravan@gmail.com'
 
 @app.get('/blog/1')
 def blog_id():
