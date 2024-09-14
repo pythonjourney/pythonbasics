@@ -5,13 +5,15 @@ WARNING: The directory '/var/www/mnagen/
 
 sudo chown -R $USER:$USER /var/www/mnagen/
 
-
+In requirements.txt add fastapi[standard]
 $apt update
 $apt install python3
 $ python3 -m venv venv
 $ source venv/bin/activate
 $pip istall package
   or
-$pip install -r requirements.txt
+$pip install -r requirements.txt---> fastapi[standard]
+pip install "fastapi[standard]"
+
 
 
