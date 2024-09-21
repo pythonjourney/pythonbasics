@@ -6,3 +6,9 @@ Python is a case senistive programming langauge
 Boolean values should always start with capital
 
 EX: start = True
+
+
+creating a virtual environment for python.
+------------------------------------------
+python3 -m venv venv
+. venv/bin/activate
