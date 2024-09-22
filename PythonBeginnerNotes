@@ -12,3 +12,9 @@ creating a virtual environment for python.
 ------------------------------------------
 python3 -m venv venv
 . venv/bin/activate
+
+
+on windows with visual studio
+ selcect command prompt
+  python3 -m venv dfenv
+  dfenv\scripts\activate --> It will work
