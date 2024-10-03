@@ -23,5 +23,7 @@ on windows with visual studio
 on windows with visual studio(my laptop)
 
 python -m venv qrvenv ----> this worked
+qrvenv\Scripts\activate---cmd mode
+
 
 
