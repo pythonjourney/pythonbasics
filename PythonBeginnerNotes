@@ -18,3 +18,10 @@ on windows with visual studio
  selcect command prompt
   python3 -m venv dfenv
   dfenv\scripts\activate --> It will work
+
+
+on windows with visual studio(my laptop)
+
+python -m venv qrvenv ----> this worked
+
+
