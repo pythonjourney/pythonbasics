@@ -19,3 +19,5 @@ sed -i '62i\your_new_command_here' /path/to/your/file
 
 
 sed -i '62s/^/    data\n/' filename
+
+sed -i '26a \t\t\t\tNEW_COMMAND' filename
