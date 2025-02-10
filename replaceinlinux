@@ -1,0 +1,5 @@
+# First, add a comment character (#) to line 52
+sed -i '52s/^/#/' /path/to/your/file
+
+# Then insert a new line after line 52
+sed -i '52a\your_new_command_here' /path/to/your/file
